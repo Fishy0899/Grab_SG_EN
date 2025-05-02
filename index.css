@@ -15,7 +15,7 @@
   width: 140px;
   top: 40%;
   bottom: 12.17%;
-  left: calc(50% - 65.5px);
+  left: calc(50% - 64.5px);
 }
 .got-2-minutes {
   position: relative;
@@ -35,7 +35,7 @@
 }
 .description-with-bg {
   height: 23px;
-  padding: 0 3px;
+  padding: 0 2px;
   box-sizing: border-box;
   position: relative;
 }
@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2px;
+  gap: var(--gap-11xs);
   z-index: 1;
 }
 .every-10-or {
@@ -125,7 +125,7 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 4;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .animation1-icon {
   width: 450px;
@@ -145,7 +145,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 46px 46px 40px;
+  padding: var(--padding-27xl) var(--padding-27xl) var(--padding-21xl);
   box-sizing: border-box;
   position: relative;
   gap: 313px;
@@ -154,9 +154,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .greenline-icon1 {
   width: 240.6px;
@@ -192,7 +192,7 @@
 }
 .large-scale-restoration-across {
   font-weight: 800;
-  font-family: Inter;
+  font-family: var(--font-inter);
 }
 .precious-meadows-by-creating {
   margin: 0;
@@ -222,11 +222,11 @@
   margin: 0;
   width: 320px;
   height: 80px;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .screen3-title {
   width: 320px;
@@ -242,7 +242,7 @@
   justify-content: flex-start;
   gap: 1px;
   z-index: 3;
-  color: #00b14f;
+  color: var(--color-forestgreen);
 }
 .clip-path-group,
 .vector-icon {
@@ -294,7 +294,7 @@
   bottom: 41.19%;
   left: calc(50% - 123.1px);
   z-index: 5;
-  font-size: 14px;
+  font-size: var(--font-size-sm);
 }
 .button1-icon {
   cursor: pointer;
@@ -316,7 +316,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 60px 46px 0;
+  padding: var(--padding-41xl) var(--padding-27xl) 0;
   box-sizing: border-box;
   position: relative;
   gap: 48px;
@@ -325,9 +325,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .greenline-icon2 {
   width: 293.7px;
@@ -371,12 +371,12 @@
   margin: 0;
   align-self: stretch;
   height: 120px;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
   letter-spacing: 0.01em;
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .screen2-title {
   width: 358px;
@@ -390,9 +390,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2px;
+  gap: var(--gap-11xs);
   z-index: 3;
-  color: #00b14f;
+  color: var(--color-forestgreen);
 }
 .group-icon1 {
   position: absolute;
@@ -406,14 +406,14 @@
 }
 .the-gases-are {
   font-weight: 500;
-  font-family: Inter;
+  font-family: var(--font-inter);
 }
 .the-gases-are-container {
   position: absolute;
   top: 65.41%;
   left: calc(50% - 95.9px);
   letter-spacing: -0.01em;
-  line-height: 14px;
+  line-height: var(--font-size-sm);
   display: inline-block;
   width: 189.5px;
   transform: rotate(6.1deg);
@@ -428,7 +428,7 @@
   bottom: 24.24%;
   left: calc(50% - 122px);
   z-index: 4;
-  font-size: 11px;
+  font-size: var(--font-size-2xs);
 }
 .animation2-icon,
 .button1-icon1 {
@@ -465,7 +465,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 60px 46px;
+  padding: var(--padding-41xl) var(--padding-27xl);
   box-sizing: border-box;
   position: relative;
   gap: 51px;
@@ -474,9 +474,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .thats-not-all {
   margin: 0;
@@ -491,7 +491,7 @@
 .the-green-programme-container {
   width: 314px;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   letter-spacing: -0.01em;
   line-height: 23px;
   display: inline-block;
@@ -517,7 +517,7 @@
 .screen4tophalf {
   align-self: stretch;
   height: 354px;
-  padding: 46px 46px 0;
+  padding: var(--padding-27xl) var(--padding-27xl) 0;
   box-sizing: border-box;
   position: relative;
   background-image: url(./public/screen4tophalf@3x.png);
@@ -525,9 +525,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 35px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .greenline-icon3 {
   width: 217.8px;
@@ -552,7 +552,7 @@
 .since-2021-grab {
   width: 242px;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   letter-spacing: -0.01em;
   line-height: 23px;
   font-weight: 500;
@@ -575,7 +575,7 @@
   justify-content: flex-start;
   gap: 10px;
   z-index: 1;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .can-you-guess {
   width: 288px;
@@ -614,7 +614,7 @@
   position: absolute;
   top: 76.18%;
   left: calc(50% - 93.83px);
-  line-height: 14px;
+  line-height: var(--font-size-sm);
   font-weight: 800;
   transform: rotate(6.9deg);
   transform-origin: 0 0;
@@ -630,7 +630,7 @@
   z-index: 4;
   text-align: center;
   font-size: 21px;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .animation4-icon,
 .button3-icon {
@@ -663,7 +663,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 40px 46px;
+  padding: var(--padding-21xl) var(--padding-27xl);
   box-sizing: border-box;
   position: relative;
   gap: 69px;
@@ -672,9 +672,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #fff;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 .source {
   margin: 0;
@@ -692,7 +692,7 @@
   top: 17.89%;
   left: calc(50% - 180px);
   letter-spacing: -0.02em;
-  line-height: 14px;
+  line-height: var(--font-size-sm);
   display: inline-block;
   z-index: 0;
 }
@@ -714,9 +714,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 11px;
-  color: #fff;
-  font-family: Inter;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 .grab-sg-en {
   width: 450px;
